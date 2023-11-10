@@ -34,7 +34,7 @@ public class Listeners implements Listener {
         Location targetLocation = eyeLocation.add(direction);
 
         if (event.getPlayer().getItemInHand().getType() == Material.GOLDEN_AXE) ;
-        event.getPlayer().getWorld().strikeLightning(event.getClickedPosition().toLocation(targetLocation.getWorld()));
+        event.getPlayer().getWorld().strikeLightning(event.getClickedBlock().toLocation();
 
     }
 }
